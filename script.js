@@ -216,34 +216,3 @@ const slider = function () {
   });
 };
 slider();
-
-///////////////////////
-/*
-const header = document.querySelector(".header");
-const message = document.createElement("div");
-message.classList.add("cookie-message");
-message.innerHTML = `<p>
-<b>Notice.</b> BANKIST uses cookies to provide necessary website functionality, improve your experience and analyze our traffic. By using our website, you agree to our Privacy Policy and our cookies usage.</P>
-<button class ="btn btn--close-cookie">OK</button>
-`;
-header.append(message);
-const colseCookie = document.querySelector(".btn--close-cookie");
-colseCookie.addEventListener("click", () => message.remove());
-// colseCookie.addEventListener("click", () => message.parentElement.removeChild(message));
-// message.style.height =
-//   Number.parseFloat(getComputedStyle(message).height, 10) + 20 + "px";
-// document.documentElement.style.setProperty("--color-primary", "red");
-
-// Attributes
-const logo = document.querySelector(".nav__logo");
-console.log(logo.alt);
-console.log(logo.src);
-console.log(logo.getAttribute("src"));
-
-const randomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-};
-const randomColor = () =>
-  `rgb(${randomInt(0, 255)}, ${randomInt(0, 255)}, ${randomInt(0, 255)})`;
-
-*/
